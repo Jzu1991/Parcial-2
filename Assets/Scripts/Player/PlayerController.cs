@@ -20,6 +20,10 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    // Polimorfismo: El jugador interactúa sin importar qué tipo de objeto sea(cofre, trampa, puerta) gracias a la interfaz IInteractable //
+
+    // Abstracción: No necesita saber detalles internos del objeto con el que interactúa //
+
     void Interact()
     {
         RaycastHit hit;

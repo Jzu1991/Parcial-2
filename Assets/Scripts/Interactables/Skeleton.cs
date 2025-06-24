@@ -1,6 +1,9 @@
 using UnityEngine;
 
 public class Skeleton : Enemy
+
+    // Igual que Goblin.cs, aplica herencia y polimorfismo //
+
 {
     private void OnCollisionEnter(Collision collision)
     {

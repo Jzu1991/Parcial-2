@@ -21,6 +21,10 @@ public class Chest : TempleObject
 
     }
 
+    // Encapsulamiento: Usa campos privados y propiedades(IsOpen) con control de acceso //
+
+    // Herencia + Polimorfismo: Hereda de TempleObject e implementa Interact() con su lógica //
+
     public override void Interact()
     {
         if (!IsOpen)
